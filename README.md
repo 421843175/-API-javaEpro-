@@ -1,9 +1,16 @@
+
+
 # -API-javaEpro-
 该API可以很容易的动态变化进度条的使用情况和加载情况
 
-`package 清除部分;
+开发者：木星
 
+### 测试类提供了如何使用该API具体如下
 
+```
+package 清除部分;
+
+  
 public class TextPrompt {
     public static void main(String[] args) {
 
@@ -53,4 +60,12 @@ public class TextPrompt {
     }
 
 }
-`
+  ```
+  效果
+  
+ 该资源已经加载了:22%[###########                                       ]下载进度 11/50，成功
+
+出现异常/ by zero,加载失败
+
+**本API对于实际操作的进度加载成功与失败可以很方便的知悉**
+
